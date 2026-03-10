@@ -1,3 +1,8 @@
+"use client";
+
 export default function contact() {
-    return <div> Contact page </div>
+    return <div>
+        {" "}
+        <button onClick={() => alert("Hello")}>Click Me</button>
+        </div>
 }
